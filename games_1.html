@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spin Wheel Game</title>
+    <link rel="stylesheet" href="spinning/assets/styles.css">
+</head>
+<body>
+    <div class="wheel-container">
+        <canvas id="wheel" width="500" height="500"></canvas>
+        <div class="arrow"></div>
+    </div>
+    <button id="spinButton">Spin the Wheel</button>
+
+    <div class="admin-container">
+        <h2>Admin Panel</h2>
+        <form id="prizesForm">
+            <label for="prizes">Enter prizes (comma-separated):</label><br>
+            <textarea id="prizes" rows="4" cols="50">Prize 1jt,Prize mobil,Prize 3jt,Prize motor,Prize kulkas,Prize 6jt,Prize 1jt,Prize sepeda listrik,Prize 5jt</textarea><br>
+            <button type="submit">Update Prizes</button>
+        </form>
+        <h2><a href="index.html">Back</a></h2>
+    </div>
+
+    <script src="spinning/assets/script.js"></script>
+</body>
+</html>
